@@ -1,0 +1,8 @@
+[+] Inicio importación Maildir++ al buzón: Sat Jun  6 11:05:31 CEST 2026
+[+] Origen: /migration/maildir_final_cliente
+[+] Destino: /home/cpuser/mail/example.com/usuario
+[+] Usuario Dovecot: usuario@example.com
+[+] Owner: cpuser:mail
+[+] Log: /migration/logs/importar_maildir_buzon_2026-06-06_110531.log
+
+[ERROR] No existe SRC_ROOT: /migration/maildir_final_cliente

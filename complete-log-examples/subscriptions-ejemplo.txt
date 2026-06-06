@@ -1,0 +1,8 @@
+Inbox
+Sent
+Archivo 2021
+Archivo 2022
+Clientes
+Clientes.Empresa A
+Clientes.Empresa A.Facturas
+Carpeta Vacía

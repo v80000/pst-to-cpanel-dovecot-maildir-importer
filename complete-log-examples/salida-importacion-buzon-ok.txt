@@ -1,0 +1,42 @@
+[+] Inicio importación Maildir++ al buzón: Sat Jun  6 11:05:31 CEST 2026
+[+] Origen: /migration/maildir_final_cliente
+[+] Destino: /home/cpuser/mail/example.com/usuario
+[+] Usuario Dovecot: usuario@example.com
+[+] Owner: cpuser:mail
+[+] Log: /migration/logs/importar_maildir_buzon_2026-06-06_110531.log
+
+[+] Conteo origen:
+    Carpetas Maildir++: 84
+    Mensajes origen: 18342
+    Subscriptions origen: 84
+
+[+] Copiando Maildir++ al buzón destino...
+[+] Incluye carpetas vacías, subcarpetas, mensajes, maildirfolder y subscriptions.
+[+] Excluyendo lost+found.
+
+       142,606,336  18%   91.20MB/s    0:00:06
+       407,953,408  53%  124.82MB/s    0:00:02
+       768,442,368 100%  118.12MB/s    0:00:06 (xfr#18426, to-chk=0/18820)
+
+[+] Reasegurando estructura Maildir en cada carpeta...
+
+[+] Ajustando permisos...
+
+[+] Forzando resync Dovecot...
+
+[+] Conteo destino tras importar:
+    Carpetas Maildir++ destino: 84
+    Mensajes destino: 18342
+    Subscriptions destino: 84
+
+[+] Primeras carpetas vistas por Dovecot:
+Archivo 2021
+Archivo 2022
+Clientes
+Clientes.Empresa A
+Clientes.Empresa A.Facturas
+Inbox
+Sent
+
+[+] Importación completada: Sat Jun  6 11:08:18 CEST 2026
+[+] Log: /migration/logs/importar_maildir_buzon_2026-06-06_110531.log

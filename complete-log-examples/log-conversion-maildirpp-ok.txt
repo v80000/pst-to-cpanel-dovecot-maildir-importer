@@ -1,0 +1,33 @@
+[+] Inicio: Sat Jun  6 10:15:11 CEST 2026
+[+] Origen readpst: /migration/readpst_out/mailboxOK
+[+] Salida Maildir++: /migration/maildir_final_cliente
+[+] Log: /migration/logs/convertir_maildirpp_2026-06-06_101511.log
+
+[+] Comprobando origen...
+    Directorios encontrados: 84
+    Archivos mbox encontrados: 61
+
+[+] Fase 1: creando estructura completa de carpetas, incluidas carpetas vacías...
+[+] Fase 2: importando mensajes desde archivos mbox...
+
+[+] [1/61] Importando Inbox -> .Inbox
+[+] [2/61] Importando Sent -> .Sent
+[+] [3/61] Importando Clientes/Empresa A -> .Clientes.Empresa A
+[+] [4/61] Importando Clientes/Empresa A/Facturas -> .Clientes.Empresa A.Facturas
+[SKIP][9/61] mbox vacío: /migration/readpst_out/mailboxOK/Carpeta Vacía/mbox
+
+[+] Fase 3: generando subscriptions...
+
+[+] Resumen:
+    Carpetas Maildir++ generadas:
+84
+    Mensajes en cur:
+18342
+    Mensajes en new:
+0
+    Subscriptions:
+84 /migration/maildir_final_cliente/subscriptions
+
+[+] Terminado: Sat Jun  6 10:43:02 CEST 2026
+[+] Resultado: /migration/maildir_final_cliente
+[+] Log: /migration/logs/convertir_maildirpp_2026-06-06_101511.log

@@ -1,0 +1,27 @@
+/migration/maildir_final_cliente/
+├── subscriptions
+├── .Inbox/
+│   ├── cur/
+│   ├── new/
+│   ├── tmp/
+│   └── maildirfolder
+├── .Sent/
+│   ├── cur/
+│   ├── new/
+│   ├── tmp/
+│   └── maildirfolder
+├── .Clientes/
+│   ├── cur/
+│   ├── new/
+│   ├── tmp/
+│   └── maildirfolder
+├── .Clientes.Empresa A/
+│   ├── cur/
+│   ├── new/
+│   ├── tmp/
+│   └── maildirfolder
+└── .Clientes.Empresa A.Facturas/
+    ├── cur/
+    ├── new/
+    ├── tmp/
+    └── maildirfolder

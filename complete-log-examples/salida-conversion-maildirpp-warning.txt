@@ -1,0 +1,36 @@
+[+] Inicio: Sat Jun  6 10:15:11 CEST 2026
+[+] Origen readpst: /migration/readpst_out/mailboxOK
+[+] Salida Maildir++: /migration/maildir_final_cliente
+[+] Log: /migration/logs/convertir_maildirpp_2026-06-06_101511.log
+
+[+] Comprobando origen...
+    Directorios encontrados: 84
+    Archivos mbox encontrados: 61
+
+[+] Fase 1: creando estructura completa de carpetas, incluidas carpetas vacías...
+
+[WARN] Nombre demasiado largo, se omite carpeta vacía:
+       .Archivo.Cliente Antiguo.Proyecto con ruta excesivamente larga.Subcarpeta muy larga.Subcarpeta muy larga.Subcarpeta muy larga.Subcarpeta muy larga
+
+[+] Fase 2: importando mensajes desde archivos mbox...
+
+[SKIP][7/61] mbox vacío: /migration/readpst_out/mailboxOK/Carpeta Vacía/mbox
+[SKIP][12/61] No parece mbox válido: /migration/readpst_out/mailboxOK/Notas/mbox
+
+[ERROR][38/61] Nombre demasiado largo, se omite importación:
+       .Archivo.Cliente Antiguo.Proyecto con ruta excesivamente larga.Subcarpeta muy larga.Subcarpeta muy larga.Subcarpeta muy larga.Subcarpeta muy larga
+       MBOX: /migration/readpst_out/mailboxOK/Archivo/Cliente Antiguo/Proyecto con ruta excesivamente larga/mbox
+
+[+] Fase 3: generando subscriptions...
+
+[+] Resumen:
+    Carpetas Maildir++ generadas:
+81
+    Mensajes en cur:
+18019
+    Mensajes en new:
+0
+    Subscriptions:
+81 /migration/maildir_final_cliente/subscriptions
+
+[+] Terminado: Sat Jun  6 10:39:44 CEST 2026
